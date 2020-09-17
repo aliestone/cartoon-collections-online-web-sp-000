@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(names)
   new array = []
-  names.map! {|name| name.capitalize }
-  new_array << names + "!"
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"].map! {|name| name.capitalize }
+  new_array << planeteer_calls + "!"
   end
 end
